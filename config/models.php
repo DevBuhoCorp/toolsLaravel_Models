@@ -262,7 +262,8 @@ return [
         */
 
         'except' => [
-            'migrations',
+            'migrations', 'bodegatmovimiento', 'bodegausuario', 'usuariotmovimiento',
+            'oauth_clients', 'oauth_access_tokens', 'oauth_auth_codes', 'oauth_personal_access_clients', 'oauth_refresh_tokens'
         ],
     ],
 
